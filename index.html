@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- create icon    -->
+    <link rel="icon" href="assets/icon.jpg" type="image/x-icon">
+    <!-- create link to css file -->
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./dist/output.css">
+    <script src="./index.js" defer></script>
+    <title>Forms</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body class="bg-dark-100">
+    <div class="bg-dark-100 text-primary text-2xl   ">
+        <h1 class=" capitalize text-center py-8 text-3xl ">wire</h1>
+        <div class="text-center  p-10 italic ">best eletronics company in zimbabwe</div>
+    </div>
+
+    <div class="mt-4 container mx-auto p-2 text-white ">
+        <div class="">
+            <p class="text-2xl text-center font-light mb-2 ">Create your account </p>
+            <p class="text-center text-sm ">30 days free trail</p>
+            <button class="bg-primary block mx-auto w-max  p-1 my-4 rounded-sm  text-text "> login with google</button>
+        </div>
+
+        <p class="text-center mb-2">or</p>
+
+        
+        <form action="" class=" grid  gap-y-4  md:w-[450px] p-2 m-auto ">
+            <label for="username">username</label>
+            <input type="text" name='username'  id="username" placeholder="username" class="outline-none hover:border-b-2 border-dark-100"/>
+            <label for="email">email</label>
+            <input type="email" name="" id="" placeholder="email" id ='email' class="outline-none hover:border-b-2 border-dark-100"/>
+            <label for="password">password</label>
+            <input type="password" name="" id="password" placeholder="password" class="outline-none hover:border-b-2 border-dark-100"/>
+            <label for="confirm">confirm</label>
+            <input type="password" name="" id="confirm" placeholder="confirm" class="outline-none hover:border-b-2 border-dark-100"/>
+            <label for="date">date</label>
+            <input type="date" name="" id="date" value="now" class="outline-none  hover:border-b-2  border-dark-100 "/>
+         
+            <label for="type">type</label>
+            <select name="" id="type" class="outline-none" >
+                <option value="">one</option>
+                <option value="">two</option>
+                <option value="">three</option>
+            </select>
+            <div class="w-max m-auto">
+                <input type="checkbox" name="" id="check" />
+                <label for="check">I do agree to all terms and policy </label>
+            </div>
+        </form>
+
+    </div>
+
+</body>
+</html>

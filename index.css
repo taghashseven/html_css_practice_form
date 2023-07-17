@@ -1,0 +1,14 @@
+
+
+* {
+    margin:  0px ; 
+    padding: 0px;
+    box-sizing: border-box;   
+}
+
+body {
+    background-image: url(./assets/cover_image.jpg);
+    background-position: 30%;
+    background-size: cover ; 
+    background-blend-mode: multiply;
+}
